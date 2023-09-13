@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $("#test1").text("Merhabaaaa!");
+  });
+  $("#btn2").click(function(){
+    $("#test2").html("<b>Merhabaaaa!</b>");
+  });
+  $("#btn3").click(function(){
+    $("#test3").val("Deneme Test");
+  });
+});
+</script>
+</head>
+<body>
+
+<p id="test1">Bu bir paragraftır.</p>
+<p id="test2">Bu başka bir paragraftır.</p>
+
+<p>İsim: <input type="text" id="test3" value="Sefa Yeşilarslan"></p>
+
+<button id="btn1">Yazı</button>
+<button id="btn2">HTML</button>
+<button id="btn3">Değer</button>
+
+</body>
+</html>
